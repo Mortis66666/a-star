@@ -162,6 +162,7 @@ impl AStar {
             } else {
                 self.end = true;
             }
+            return;
         }
 
         if self.start_finding {
